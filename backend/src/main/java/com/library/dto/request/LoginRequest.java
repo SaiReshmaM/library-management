@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 public class LoginRequest {
 
-    @NotBlank(message = "Username is required")
+    @NotBlank(message = "Username is required")  
     @Size(max = 50, message = "Username must not exceed 50 characters")
     private String username;
 
