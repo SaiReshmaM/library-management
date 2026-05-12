@@ -28,7 +28,7 @@ public class DataSeeder {
                                MemberRepository memberRepo) {
         return args -> {
 
-            // ── Users ────────────────────────────────────────────────────
+            // ── Users ──
             if (!userRepo.existsByUsername("librarian")) {
                 userRepo.save(User.builder()
                         .username("librarian")
