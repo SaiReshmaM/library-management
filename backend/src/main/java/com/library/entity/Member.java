@@ -2,7 +2,6 @@ package com.library.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-
 @Entity
 @Table(name = "members")
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
