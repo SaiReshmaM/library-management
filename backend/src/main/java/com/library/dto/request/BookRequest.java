@@ -3,7 +3,7 @@ package com.library.dto.request;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
-import lombok.Data;
+import lombok.Data;  
 
 @Data
 public class BookRequest {
