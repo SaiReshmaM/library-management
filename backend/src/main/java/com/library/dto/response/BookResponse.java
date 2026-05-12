@@ -7,7 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data @Builder @NoArgsConstructor @AllArgsConstructor
-public class BookResponse {
+public class BookResponse {  
 
     private Long bookId;
     private String title;
