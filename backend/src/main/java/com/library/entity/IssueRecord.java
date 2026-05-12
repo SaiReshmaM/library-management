@@ -3,7 +3,6 @@ package com.library.entity;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDate;
-
 @Entity
 @Table(name = "issue_records")
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor @Builder
