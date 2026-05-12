@@ -1,5 +1,5 @@
 package com.library.repository;
-
+    
 import com.library.entity.IssueRecord;
 import com.library.entity.IssueRecord.Status;
 import org.springframework.data.jpa.repository.JpaRepository;
