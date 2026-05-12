@@ -1,3 +1,5 @@
+
+<img width="1600" height="900" alt="WhatsApp Image 2026-05-12 at 2 42 47 PM" src="https://github.com/user-attachments/assets/3d5478e2-7827-4c8a-8603-80d4c2ca8939" />
 Issue & Return Page:
 This page manages book issuing and returning operations.
 Features include:
@@ -36,7 +38,7 @@ Member name
 Email
 Phone number
 Option to view issued books
-<img width="1600" height="900" alt="WhatsApp Image 2026-05-12 at 2 42 47 PM" src="https://github.com/user-attachments/assets/3d5478e2-7827-4c8a-8603-80d4c2ca8939" />
+
 
 <img width="1600" height="900" alt="book" src="https://github.com/user-attachments/assets/381c1886-3bd6-4edc-9e51-4e073b464f34" />
 
