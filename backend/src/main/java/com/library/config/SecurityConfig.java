@@ -45,15 +45,15 @@ public class SecurityConfig {
             .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(auth -> auth
                     .requestMatchers(PUBLIC_URLS).permitAll()
-                    // Books – read is open, write requires LIBRARIAN
+                    
                     .requestMatchers(HttpMethod.GET,  "/api/books/**").authenticated()
                     .requestMatchers(HttpMethod.POST, "/api/books/**").hasRole("LIBRARIAN")
                     .requestMatchers(HttpMethod.PUT,  "/api/books/**").hasRole("LIBRARIAN")
                     .requestMatchers(HttpMethod.DELETE, "/api/books/**").hasRole("LIBRARIAN")
-                    // Members
+                    
                     .requestMatchers(HttpMethod.POST, "/api/members/**").hasRole("LIBRARIAN")
                     .requestMatchers(HttpMethod.GET,  "/api/members/**").authenticated()
-                    // Issues
+                
                     .requestMatchers("/api/issues/**").hasRole("LIBRARIAN")
                     .anyRequest().authenticated()
             )
